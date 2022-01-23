@@ -1,4 +1,4 @@
-#!/bin/shd
+#!/bin/sh
 
 echo "Pre-commit - Running pylint on whole asd_helper modoule"
 python3 -m pylint asd_helper
