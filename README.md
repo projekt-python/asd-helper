@@ -19,11 +19,5 @@ To run tests you can install package in editable state with
 pip3 install -e .
 
 ```
-You need to be in proejct root directory when you run above command (i.e. in the directory that conatins setup.py)
+You need to be in project root directory when you run above command (i.e. in the directory that conatins setup.py)
 
-### Run code formatter
-Black will format code for you. Simply run this command in root directory:
-```
-python3 -m black .
-```
-It is also automatically run on every commit

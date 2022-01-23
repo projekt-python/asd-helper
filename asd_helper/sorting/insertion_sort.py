@@ -1,8 +1,15 @@
-from typing import List, TypeVar
+"""Insertion sort file."""
+from typing import List
 
-# TODO write propper docstrings
+
 def insertion_sort(arr: List[int]) -> List[int]:
-    # it is isnertion sort that modifies input lsit
+    """
+    Insertion sort algorithm.
+    Be careful as it modifies input list!
+
+    :param arr: Array (python list) to be sorted
+    :returns: Sorded array
+    """
     # Traverse through 1 to len(arr)
     for i in range(1, len(arr)):
         key = arr[i]
