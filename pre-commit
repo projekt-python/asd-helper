@@ -13,3 +13,6 @@ then
 else
     python3 -m flake8 $staged_files
 fi
+
+echo "Pre-commit - Run unnit tests"
+python3 -m unittest discover .
