@@ -7,9 +7,9 @@ python3 -m pylint asd_helper
 echo "Pre-commit - Running flake8 on staged to commit files"
 export PATH=/usr/local/bin:$PATH  
 export staged_files="$(git diff --staged --name-only HEAD | grep .py | tr '\n' ' ')"  
-if [-z $staged_files]  
+if [ -z $staged_files ]  
 then  
-    echo "Pre-commit - There are no files staged!"
+    echo "Pre-commit - There are no python files staged!"
 else
     python3 -m flake8 $staged_files
 fi
