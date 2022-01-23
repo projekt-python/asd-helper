@@ -1,0 +1,7 @@
+#!/bin/shd
+
+echo "Running pylint on whole asd_helper modoule"
+python3 -m pylint asd_helper
+
+echo "Running flake8 on all files"
+python3 -m flake8 .
