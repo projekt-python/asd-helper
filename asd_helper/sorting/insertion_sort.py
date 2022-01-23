@@ -4,7 +4,8 @@ from typing import List
 
 def insertion_sort(arr: List[int]) -> List[int]:
     """
-    Insertion sort algorithm.
+    Insert input list.
+
     Be careful as it modifies input list!
 
     :param arr: Array (python list) to be sorted
